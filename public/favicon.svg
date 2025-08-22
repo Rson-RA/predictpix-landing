@@ -1,0 +1,20 @@
+<!-- /public/favicon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00F5FF"></stop>
+      <stop offset="100%" stop-color="#FF2ECF"></stop>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#FF7A1C" flood-opacity="0.35"></feDropShadow>
+    </filter>
+  </defs>
+
+  <!-- dark card background -->
+  <rect width="256" height="256" rx="56" ry="56" fill="#0C0F1C"></rect>
+
+  <!-- stylized “P” mark -->
+  <g filter="url(#glow)">
+    <path fill="url(#g)" d="M88 64h64c35 0 64 29 64 64s-29 64-64 64h-24v-28h24c20 0 36-16 36-36s-16-36-36-36h-28v120H88V64z"></path>
+  </g>
+</svg>
