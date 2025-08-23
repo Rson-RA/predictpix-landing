@@ -418,9 +418,9 @@ export default function PredictPixLanding() {
           <div className="grid md:grid-cols-2 gap-6">
             {[
               { q: "Do I need Pi to join the beta?", a: "You can join the waitlist with email only. Trading uses Pi once your account is activated." },
-              { q: "Are there AMMs or liquidity pools?", a: "No. PredictPix is peer-to-peer by design, avoiding AMM/liquidity pool risk." },
+              { q: "Is this like a casino?", a: "No. Does not rely on liquidity pools or AMM mechanics (no hidden house edge), it operates on peer-to-peer participation only, ensuring fairness and transparency." },
               { q: "How are outcomes resolved?", a: "Each market has clear criteria and sources; disputes can be reviewed per our resolution policy." },
-              { q: "Can I create markets?", a: "Yes—create with clear criteria and a Pi stake. Abuse or harmful markets are prohibited by policy." },
+              { q: "Can I create markets?", a: "Yes—create with clear criteria and a Pi stake. Implements strict ethical guidelines prohibiting harmful, exploitative, or non-compliant markets." },
             ].map((x, i) => (
               <HaloBox key={i} variant="pink">
                 <div className="font-semibold">{x.q}</div>
